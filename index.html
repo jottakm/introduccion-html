@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Estructura de HTML</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+    <h1>Titulo de la Pagina</h1>
+    <!-- <h2>Mi segundo heading</h2>
+    <h3>Mi tercer heading</h3>
+    <h4>Mi cuarto heading</h4>
+    <h5>Mi quinto heading</h5>
+    <h6>Mi sexto heading</h6> -->
+
+    <!-- <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Soluta harum, voluptatem provident eligendi sunt quod
+        , mollitia illum quia, quaerat fugit dolorem perspiciatis dolor ipsum
+        sapiente. Beatae dolorum est ex provident?</p>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed qui doloremque obcaecati impedit ea nemo quidem
+        quisquam quaerat assumenda numquam? Cupiditate voluptatum necessitatibus magnam sit, atque porro earum quos
+        aperiam!</p>
+    
+    <hr>
+
+    <h2>Título </h2>
+    <p>Lorem ipsum dolor sit amet consectetur</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>Harum aliquid molestias excepturi repellat ab autem, quis unde 
+        <br><span style="color: red;">consequuntur illo quisquam</span> dicta <strong>repellendus labore</strong> accusantium 
+        distinctio rem hic, sint non! Corporis.</p> -->
+    <!-- Esto es un comentario Comentar ctrl k + c  -->
+    <!-- descomentar ctrl + k + u -->
+
+    <!-- <a href="https://google.com" target="_blank">Ir a google</a>
+
+    <br> -->
+
+    <!-- <img src="./images/html.png" alt="Imagen de portada" width="200" height="" > -->
+
+    <!-- formularios -->
+    <form action="/ruta" method="POST">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" placeholder="Ingrese su nombre..." required>
+        <br>
+        <label for="edad">Edad:</label>
+        <input type="number" id="edad" name="edad">
+        <br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <!-- <br>
+
+        <label for="comentario">Comentario:</label>
+        <textarea name="comentario" id="comentario" cols="40" rows="5" required></textarea> -->
+
+        <!-- <br>
+        <label for="clave">Clave:</label>
+        <input type="password" id="clave" name="clave"  required> -->
+
+        <!-- <input type="checkbox">
+        <input type="radio"> -->
+
+        <br>
+        <!-- <input type="submit" value="Enviar"> -->
+        <!-- <button type="button">Boton</button> -->
+        <button type="reset">Reset</button>
+        <button type="submit">Enviar</button>
+    </form>
+
+
+    <!-- Listas no ordenadas -->
+    <ul>
+        <li>Elemento 1</li>
+        <li>Elemento 2</li>
+        <li>Elemento 3</li>
+        <li>Elemento 4</li>
+    </ul>
+
+    <!-- listas ordenadas -->
+    <ol>
+        <li value="5">Elemento 1</li>
+        <li>Elemento 2</li>
+        <li>Elemento 3</li>
+        <li>Elemento 4</li>
+    </ol>
+
+
+    <!-- Tablas -->
+    <table border="1">
+        <thead class="head-table">
+            <tr>
+                <th>#</th>
+                <th>Producto</th>
+                <th>Precio</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Disco Duro </td>
+                <td>500 Bs.</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Laptop HP </td>
+                <td>4000 Bs.</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                 <td colspan="2">Total</td> <!--combinar columnas rowsapn -->
+                <td>4500 Bs.</td>
+            </tr>
+        </tfoot>
+    </table>
+
+
+</body>
+
+</html>
